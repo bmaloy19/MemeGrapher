@@ -1,0 +1,52 @@
+@page "/graph"
+@rendermode InteractiveServer
+
+<PageTitle>Graph</PageTitle>
+
+<h1>Graph</h1>
+
+<div class="grid">
+    @for (int i = 0; i < 400; i++)
+    {
+        var index = i;
+            <div @onclick="@(e => ChangeColor(index))" style="background-color: @(cellColors[index])">@index</div>
+        }
+</div>
+
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(20, 20px);
+        grid-template-rows: repeat(20, 20px);
+        width: 400px;  /* Adjust as needed */
+        height: 400px;  /* Adjust as needed */
+        border: 1px solid black;
+    }
+    .grid div {
+        border: 1px solid black;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+</style>
+
+@code {
+    private string[] cellColors;
+
+    protected override void OnInitialized()
+    {
+        cellColors = new string[400];
+        for (int i = 0; i < cellColors.Length; i++)
+        {
+            cellColors[i] = "white";
+        }
+        
+    }
+    
+    private void ChangeColor(int index)
+    {
+        cellColors[index] = cellColors[index] == "red" ? "white" : "red";
+    }
+}

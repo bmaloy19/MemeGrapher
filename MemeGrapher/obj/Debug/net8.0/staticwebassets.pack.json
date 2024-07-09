@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/obj/Debug/net8.0/scopedcss/projectbundle/MemeGrapher.bundle.scp.css",
+      "PackagePath": "staticwebassets/MemeGrapher.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MemeGrapher.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MemeGrapher.props",
+      "PackagePath": "build\\MemeGrapher.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MemeGrapher.props",
+      "PackagePath": "buildMultiTargeting\\MemeGrapher.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MemeGrapher.props",
+      "PackagePath": "buildTransitive\\MemeGrapher.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
