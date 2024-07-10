@@ -127,3 +127,4 @@
 /Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/obj/Debug/net8.0/MemeGrapher.pdb
 /Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/obj/Debug/net8.0/MemeGrapher.genruntimeconfig.cache
 /Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/obj/Debug/net8.0/ref/MemeGrapher.dll
+/Users/brycemaloy/TestGit/MemeGrapher/MemeGrapher/obj/Debug/net8.0/MemeGrapher.sourcelink.json
