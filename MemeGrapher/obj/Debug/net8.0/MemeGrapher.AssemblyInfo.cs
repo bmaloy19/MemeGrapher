@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemeGrapher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+173d2e6a05ae2cb2891541e3c60afd4e78b26066")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f98231bbe44e238e06a293be5d0184fe61a53d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemeGrapher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemeGrapher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

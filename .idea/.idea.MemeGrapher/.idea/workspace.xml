@@ -10,8 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19a2fb2f-9231-4be2-b14e-a080c766bd1c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MemeGrapher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MemeGrapher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemeGrapher/Components/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/Components/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemeGrapher/Components/Pages/Graph.razor" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/Components/Pages/Graph.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemeGrapher/Components/Layout/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/Components/Layout/MainLayout.razor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemeGrapher/bin/Debug/net8.0/MemeGrapher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/bin/Debug/net8.0/MemeGrapher.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemeGrapher/bin/Debug/net8.0/MemeGrapher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/bin/Debug/net8.0/MemeGrapher.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/MemeGrapher.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/MemeGrapher.AssemblyInfo.cs" afterDir="false" />
@@ -21,6 +20,9 @@
       <change beforePath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/MemeGrapher.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/MemeGrapher.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/ref/MemeGrapher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/ref/MemeGrapher.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/refint/MemeGrapher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/refint/MemeGrapher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/scopedcss/bundle/MemeGrapher.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/scopedcss/bundle/MemeGrapher.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/scopedcss/projectbundle/MemeGrapher.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemeGrapher/obj/Debug/net8.0/scopedcss/projectbundle/MemeGrapher.bundle.scp.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720792600973</updated>
       <workItem from="1720792602216" duration="599000" />
-      <workItem from="1723142937977" duration="3867000" />
+      <workItem from="1723142937977" duration="5522000" />
     </task>
     <servers />
   </component>
