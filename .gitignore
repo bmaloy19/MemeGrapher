@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Python dependencies
+venv/
+__pycache__/
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project

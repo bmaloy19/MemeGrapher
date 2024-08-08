@@ -9,17 +9,31 @@
     @for (int i = 0; i < 400; i++)
     {
         var index = i;
-            <div class="@SetClass(index)"@onclick="@(e => ChangeColor(index))" style="background-color: @(cellColors[index])"></div>
-        }
+        <div class="@SetClass(index)" @onclick="@(e => ChangeColor(index))">
+            @foreach (var color in cellColors[index])
+            {
+                <div class="color-section" style="background-color: @color"></div>
+            }
+        </div>
+    }
+</div>
+
+<div class="color-picker">
+    @foreach (var color in colors)
+    {
+        <div class="color-option" @onclick="@(e => SelectColor(color))" style="background-color: @color"></div>
+    }
 </div>
 
 <style>
     .grid {
         display: grid;
-        grid-template-columns: repeat(20, 20px);
-        grid-template-rows: repeat(20, 20px);
-        width: 400px;  /* Adjust as needed */
-        height: 400px;  /* Adjust as needed */
+        grid-template-columns: repeat(20, minmax(10px, 30px));
+        grid-template-rows: repeat(20, minmax(10px, 30px));
+        width: 80vw;  /* Adjust as needed */
+        height: 80vw;  /* Adjust as needed */
+        max-width: 600px;  /* Adjust as needed */
+        max-height: 600px;  /* Adjust as needed */
         border: 1px solid black;
     }
     .grid div {
@@ -40,26 +54,59 @@
         border-left: 3px solid black;
         border-top: 3px solid black;
     }
+    .color-section {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+    
+    .color-picker {
+        display: flex;
+        margin-top: 20px;
+    }
+    .color-option {
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        cursor: pointer;
+        }
     
 </style>
 
 @code {
-    private string[] cellColors;
+    private List<string>[] cellColors;
+    private string[] colors = { "red", "blue", "green", "yellow", "purple" };
+    private string selectedColor = "red";
+
 
     protected override void OnInitialized()
     {
-        cellColors = new string[400];
+        cellColors = new List<string>[400];
         for (int i = 0; i < cellColors.Length; i++)
         {
-            cellColors[i] = "white";
+            cellColors[i] = [];
         }
         
     }
     
     private void ChangeColor(int index)
     {
-        cellColors[index] = cellColors[index] == "red" ? "white" : "red";
+       //TODO: find a good way to have only 1 of the same color in the grid at a time
+        if (!cellColors[index].Contains(selectedColor))
+        {
+            cellColors[index].Add(selectedColor);
+        }
+        else
+        {
+            cellColors[index].Remove(selectedColor);
+        }
     }
+
+    private void SelectColor(string color)
+    {
+        selectedColor = color;
+    }
+
 
     private string SetClass(int index)
     {
